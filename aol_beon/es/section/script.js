@@ -18,12 +18,17 @@
     q().push(["insertPreview", {
         label: "Home",
         unit: ad,
-        location: "#main > div.todaystripe.grid.loaded.layout-none > ul > li.pos9.smalla.smalla-twoimages.media.photo",
+        location: "#main > div:nth-child(2) > div > div > div > ul > li.smalla.smalla-twoimages.index20",
         infoText: "",
         infoButtonText: "",
         template: templates.small1,
         onRender: function($element) {
             $element.next().remove();
+            $element.find(".plr-title").after("<div class=\"plr-title\" style=\"\
+                font-size: 16px;\
+                position: absolute;\
+                top: 228px;\
+            \">Promoted</div>")
         },
         onFill: function(data) {},
         onError: function(error) {}
@@ -31,22 +36,22 @@
     q().push(["injectCSS", ["",
         ".plr-small-video .plr-outer {",
         "  position: absolute;",
-        "  top: 0;",
+        "  top: 10px;",
         "  right: 2rem;",
         "  width: 30.7rem;",
         "  height: 260px;",
-        "  padding: 10px 20px;",
+        "  padding: 12px 5px;",
         "  border-bottom: #dfdfdd 1px solid;",
-        "  border-right: 1px solid #dfdfdd;",
         "  background-color: white; }",
         ".plr-small-video .plr-title {",
+        "  white-space: normal;", 
         "  font-size: 20px;",
         "  height: 65px;",
         "  margin: auto; }",
         "  .plr-small-video .plr-title:hover {",
         "    text-decoration: underline; }",
         ".plr-small-video .plr-video iframe {",
-        "  width: 26.7rem;",
+        "  width: 29.7rem;",
         "  border: none;",
         "  height: 145px; }",
         ".plr-small-video .plr-sponsored .plr-label {",
@@ -57,8 +62,17 @@
         ".plr-small-video .plr-sponsored .plr-logo {",
         "  height: 20px;",
         "  position: absolute;",
-        "  right: 20px;",
+        "  right: 4px;",
         "  bottom: 10px; }",
+        ".plr-outer::before {",
+        "  content: \",\";",
+        "  color: white;",
+        "  border-left: 1px solid #d9d9d9;",
+        "  height: 250px;",
+        "  position: absolute;",
+        "  left: -5px;",
+        "  top: 10px;",
+        "}",
         ""
     ].join("\n"), "head"]);
 
