@@ -1,0 +1,40 @@
+.plr-small-video {
+    .plr-outer {
+        position: absolute;
+        top: 0;
+        right: 2rem;
+        width: 30.7rem;
+        height: 260px;
+        padding: 10px 20px;
+        border-bottom: #dfdfdd 1px solid;
+        border-right: 1px solid #dfdfdd;
+        background-color: white;
+    }
+    .plr-title {
+        font-size: 20px;
+        height: 65px;
+        margin: auto;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .plr-video iframe {
+        width: 26.7rem;
+        border: none;
+        height: 145px;
+    }
+    .plr-sponsored {
+        .plr-label {
+            display: inline-block;
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+        }
+        .plr-logo {
+            height: 20px;
+            position: absolute;
+            right: 20px;
+            bottom: 10px;
+        }
+    }
+}
