@@ -10,7 +10,7 @@
         return window.NATIVEADS_QUEUE;
     };
 
-    var ad = { "server": "mvdirect", "id": "304dc65b180a44368c22495ea5db4c4d" };
+    var ad = { "server": "mvdirect", "id": "46e3d848f6404b048676aff9c0455847" };
 
     q().push(["setPropertyID", "NA-AOLBEONDEMO-11238021"]);
     q().push(["setSecondaryPageURL", "/sample/publisher/sponsored.html"]);
