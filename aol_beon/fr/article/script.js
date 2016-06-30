@@ -103,7 +103,7 @@
                 stack2 = depth0.summary;
                 stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2;
             }
-            buffer += escapeExpression(stack2) + "</div>\n        <div class=\"plr-sponsored\">\n            <div class=\"plr-label\">Promoted</div>\n            <img class=\"plr-logo\" src=\"" + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.sponsor), stack1 == null || stack1 === false ? stack1 : stack1.logo)), stack1 == null || stack1 === false ? stack1 : stack1.href)), typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) + "\">\n        </div>\n    </div>\n</div>";
+            buffer += escapeExpression(stack2) + "</div>\n        <div class=\"plr-sponsored\">\n            <div class=\"plr-label\">Promu</div>\n            <img class=\"plr-logo\" src=\"" + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.sponsor), stack1 == null || stack1 === false ? stack1 : stack1.logo)), stack1 == null || stack1 === false ? stack1 : stack1.href)), typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) + "\">\n        </div>\n    </div>\n</div>";
             return buffer;
         }
 
