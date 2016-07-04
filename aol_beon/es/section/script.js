@@ -1,5 +1,7 @@
 (function() {
 
+
+
     var templates = {};
     generate_templates();
 
@@ -18,7 +20,7 @@
     q().push(["insertPreview", {
         label: "Home",
         unit: ad,
-        location: "#main > div:nth-child(2) > div > div > div > ul > li.smalla.smalla-twoimages.index20",
+        location: "#main > div:nth-child(2) > div > div > div > ul > li.showcasead",
         infoText: "",
         infoButtonText: "",
         template: templates.small1,

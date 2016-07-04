@@ -18,7 +18,7 @@
     q().push(["insertPreview", {
         label: "Home",
         unit: ad,
-        location: "#rectangle1_article_newsworld_3fdee3b5-fec7-4b50-8480-6980341e058b",
+        location: "#rectangle1_article_newsworld_d1c64672-b233-49c6-b770-f2d1be551c84",
         infoText: "",
         infoButtonText: "",
         template: templates.large1,
